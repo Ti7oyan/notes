@@ -1,0 +1,9 @@
+{
+  "title": "Resúmenes",
+  "description": "Una colección de mis resúmenes y apuntes.",
+  "author": "Ticiano Morvan",
+  "language": "es",
+  "plugins": [
+    "@dogatana/back-to-top-button"
+  ]
+}

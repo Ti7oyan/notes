@@ -1,0 +1,23 @@
+{
+  "name": "school-notes",
+  "version": "1.0.0",
+  "description": "A collection of my school notes",
+  "main": "index.js",
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build",
+    "deploy": "gh-pages -d _book"
+  },
+  "keywords": [
+    "school",
+    "notes",
+    "students"
+  ],
+  "author": "Ticiano Morvan",
+  "license": "ISC",
+  "devDependencies": {
+    "@dogatana/honkit-plugin-back-to-top-button": "^1.0.0",
+    "gh-pages": "^4.0.0",
+    "honkit": "^3.7.4"
+  }
+}
