@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "honkit serve",
     "build": "honkit build",
-    "deploy": "gh-pages -d _book"
+    "deploy": "npm run build && gh-pages -d _book"
   },
   "keywords": [
     "school",
