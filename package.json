@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "honkit serve",
-    "build": "honkit build",
-    "deploy": "npm run build && gh-pages -d _book"
+    "build": "honkit build"
   },
   "keywords": [
     "school",
@@ -17,7 +16,6 @@
   "license": "ISC",
   "devDependencies": {
     "@dogatana/honkit-plugin-back-to-top-button": "^1.0.0",
-    "gh-pages": "^4.0.0",
     "honkit": "^3.7.4"
   }
 }
